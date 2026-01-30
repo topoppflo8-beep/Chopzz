@@ -13,7 +13,7 @@ Library.ShowToggleFrameInKeybinds = true -- Make toggle keybinds work inside the
 
 -- Create main window
 local Window = Library:CreateWindow({
-	Title = "Void.cc",
+	Title = "Chopzz.GG",
 	Footer = "",
 	Icon = skull, -- Fixed empty icon
 	NotifySide = "Right",
@@ -2649,3 +2649,4 @@ SaveManager:SetSubFolder("specific-place")
 
 SaveManager:BuildConfigSection(Tabs["UI Settings"])
 ThemeManager:ApplyToGroupbox(MenuGroup)
+
