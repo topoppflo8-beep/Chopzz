@@ -38,7 +38,7 @@ local Tabs = {
 local SenseESPInterface = loadstring(game:HttpGet("https://raw.githubusercontent.com/boshyxd/rayfield/refs/heads/main/SenseSource.luau"))()
 
 if SenseESPInterface then
-    Library:Notify("Thanks For Using Void.cc", 2)
+    Library:Notify("Thanks For Using Chopzz.gg", 2)
     SenseESPInterface.Load()
 else
     Library:Notify("Error\nFailed to load ESP Menu.", 3)
@@ -144,7 +144,7 @@ local function createTeleportGui()
     local textLabel = Instance.new("TextLabel")
     textLabel.Size = UDim2.new(1, 0, 1, 0)
     textLabel.BackgroundTransparency = 1
-    textLabel.Text = "VOID.CC"
+    textLabel.Text = "Chopzz.GG"
     textLabel.TextColor3 = Color3.new(300, 0,0)
     textLabel.TextScaled = true
     textLabel.Font = Enum.Font.SourceSansBold
@@ -2649,4 +2649,5 @@ SaveManager:SetSubFolder("specific-place")
 
 SaveManager:BuildConfigSection(Tabs["UI Settings"])
 ThemeManager:ApplyToGroupbox(MenuGroup)
+
 
